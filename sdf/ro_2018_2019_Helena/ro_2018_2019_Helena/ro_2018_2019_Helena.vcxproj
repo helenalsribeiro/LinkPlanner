@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{5A8A6F72-25C4-484A-AE9B-1D218931AF38}</ProjectGuid>
-    <RootNamespace>ro20182019Armando</RootNamespace>
+    <ProjectGuid>{328E5C17-E4CA-4594-844B-AF4AE971A4C5}</ProjectGuid>
+    <RootNamespace>ro20182019Helena</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,15 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\lib\binary_source_20180815.cpp" />
-    <ClCompile Include="..\..\lib\discrete_to_continuous_time_20180815.cpp" />
-    <ClCompile Include="..\..\lib\iq_modulator_20180815.cpp" />
-    <ClCompile Include="..\..\lib\laser_20180815.cpp" />
-    <ClCompile Include="..\..\lib\m_qam_mapper_20180815.cpp" />
-    <ClCompile Include="..\..\lib\netxpto_20180815.cpp" />
-    <ClCompile Include="..\..\lib\pulse_shaper_20180815.cpp" />
-    <ClCompile Include="..\..\lib\sink_20180815.cpp" />
-    <ClCompile Include="m_qam_transmission_system_sdf_Armando.cpp" />
+    <ClCompile Include="..\..\..\lib\binary_source_20180815.cpp" />
+    <ClCompile Include="..\..\..\lib\discrete_to_continuous_time_20180815.cpp" />
+    <ClCompile Include="..\..\..\lib\iq_modulator_20180815.cpp" />
+    <ClCompile Include="..\..\..\lib\laser_20180815.cpp" />
+    <ClCompile Include="..\..\..\lib\m_qam_mapper_20180815.cpp" />
+    <ClCompile Include="..\..\..\lib\netxpto_20180815.cpp" />
+    <ClCompile Include="..\..\..\lib\pulse_shaper_20180815.cpp" />
+    <ClCompile Include="..\..\..\lib\sink_20180815.cpp" />
+    <ClCompile Include="..\m_qam_transmission_system_sdf_Helena.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
